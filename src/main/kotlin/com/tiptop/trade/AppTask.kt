@@ -1,10 +1,10 @@
 package com.tiptop.trade
 
+import org.apache.commons.compress.archivers.sevenz.SevenZOutputFile
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.InputFile
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
-import org.gradle.internal.impldep.org.apache.commons.compress.archivers.sevenz.SevenZOutputFile
 import java.io.File
 import java.io.FileOutputStream
 import java.nio.file.Files
